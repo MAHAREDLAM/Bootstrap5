@@ -1,0 +1,91 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+
+
+.carousel-item {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.carousel h1 {
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.carousel p {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+
+.card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+
+.btn-primary {
+  border-radius: 50px;
+  padding: 10px 25px;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+
+form {
+  max-width: 700px;
+  margin: auto;
+}
+
+.form-control {
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+
+
+footer {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+
+
+
+
